@@ -1,0 +1,26 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+.custom-footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.custom-footer a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.custom-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
